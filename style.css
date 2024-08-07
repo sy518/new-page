@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(62, 226, 226);
+  margin: 40px;
+  font-family: cursive;
+  color: darkgreen;
+}
+
+.box {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  gap: 20%;
+}
+
+ul {
+  list-style-type: none;
+  gap: 90px;
+  display: flex;
+  font-size: 20px;
+
+}
+header{
+  height: 500px;
+  width: 80%;
+  background-image: url(./pk.png);
+  background-position:right;
+  background-repeat: no-repeat;
+ align-content: center;
+ margin:auto ;
+  padding: 10px;
+  justify-content: space-evenly;
+  border: 5px, solid,linear-gradients(green,rgb(192, 238, 146));
+}
+
+ button{
+  background-color: chartreuse;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  border: 2px, solid,darkgreen;
+ align-items: center;
+ margin: 30px;
+ }
+
+button:hover{
+  background-color: darkolivegreen;
+}
